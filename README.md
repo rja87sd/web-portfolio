@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Day 1 Log
 
-## Getting Started
+### Tasks Completed
 
-First, run the development server:
+- Initialized the Next.js project with `create-next-app`.
+- Began drafting wireframes for the login page and product listing page.
+  https://www.figma.com/board/d9qKDHISJiZ1dmFRtGky1m/L3-Capstone---Web-Portfolio?node-id=0%3A1&t=2PBSDIF1aD5C0HFW-1
+- Began creating components, starting with Header.jsx
+- Created about page.
+- Imported Header to about page.
+- Finished creating components:
+  Footer
+  Header
+  Hero
+  ProjectCard
+  Projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Challenges and Solutions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Encountered issues with React-Bootstrap (See screenshot).
+  ![alt text](image.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Solution: Forgot to add 'use client'; to Header component. React-Bootstrap uses client-side rendering, so the components being imported were not being found.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Learnings and Insights
 
-## Learn More
+- Gained a better understanding of React-Bootstrap and how to implement it in my Next.js projects.
 
-To learn more about Next.js, take a look at the following resources:
+### Next Steps
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Add functionality to components.
+- Start adding styling.
+- Possibly add more components.
