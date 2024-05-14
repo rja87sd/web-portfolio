@@ -15,7 +15,7 @@ export default function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">Link</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="My Projects" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://rja87sd.github.io/5e-Lookup/">
                 5e Spell Lookup

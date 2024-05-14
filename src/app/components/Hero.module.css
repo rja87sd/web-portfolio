@@ -1,0 +1,15 @@
+/* Hero.module.css */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image {
+  flex-shrink: 0;
+}
