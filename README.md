@@ -52,8 +52,10 @@ Solution:
 
 ### Learnings and Insights
 
-- 
+- Gained a better understanding of Tailwind classNames and their uses.
 
 ### Next Steps
 
-- 
+- Flesh out About page.
+- Possibly add more components.
+- Add styling to entire project.
