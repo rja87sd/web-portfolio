@@ -31,3 +31,29 @@ Solution: Forgot to add 'use client'; to Header component. React-Bootstrap uses 
 - Add functionality to components.
 - Start adding styling.
 - Possibly add more components.
+
+## Day 2 Log
+
+### Tasks Completed
+
+- Began constructing ProjectCard component.
+- Began constructing Projects component.
+- Began linking my projects into the Projects component.
+- Created ButtonLink component.
+- Added functionality to ButtonLink and animations when hovered or clicked.
+
+### Challenges and Solutions
+
+- Encountered trouble with card images not being properly contained. Also, the card contents were not centered.
+
+Solution: 
+- Added layout="fill" and objectFit="cover" attributes to Image. This allowed the image to fill its container and cover all available space without stretching the image and reducing its quality.
+- Added "relative w-full h-40" to parent className. This set the image position to relative, set the width to take up the full width of its container, and gave it a height setting of 40.
+
+### Learnings and Insights
+
+- 
+
+### Next Steps
+
+- 
