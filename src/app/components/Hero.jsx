@@ -1,13 +1,15 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import styles from "./Hero.module.css";
+import "../globals.css";
 
 export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.text}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sit
+        <h1 className="mx-4 my-4 neon-text text-5xl">Hello, World!</h1>
+        <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sit
         architecto itaque ea porro dolorum deleniti rem explicabo ut fugit iusto
         molestiae obcaecati error illo, perferendis, incidunt alias magnam
         commodi. Maxime, cupiditate. At est repellat expedita repellendus
@@ -23,7 +25,7 @@ export default function Hero() {
         Perferendis deleniti mollitia harum molestiae eum consequatur tempore
         illo esse asperiores blanditiis, a distinctio nesciunt reiciendis quae
         voluptatibus enim iste fugit ut itaque, officiis laudantium modi
-        exercitationem? Modi, suscipit quasi?
+        exercitationem? Modi, suscipit quasi?</p>
       </div>
       <Image
         className={styles.image}

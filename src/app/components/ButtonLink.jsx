@@ -1,9 +1,12 @@
-// components/ButtonLink.js
+// components/ButtonLink.jsx
+
 "use client";
+
 import Link from "next/link";
 import { useState } from "react";
+import "../globals.css";
 
-const ButtonLink = ({ href, children }) => {
+export default function ButtonLink({ href, children }) {
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
@@ -12,16 +15,13 @@ const ButtonLink = ({ href, children }) => {
   };
 
   return (
-    <Link
-      href={href}
-      onClick={handleClick}
-      className={`inline-block mt-4 px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300 ${
-        clicked ? "animate-click" : ""
-      }`}
-    >
-      {children}
+    <Link href={href} passHref>
+      <div
+        onClick={handleClick}
+        className={`btn-neon ${clicked ? "neon-animation" : ""} cursor-pointer`}
+      >
+        {children}
+      </div>
     </Link>
   );
 };
-
-export default ButtonLink;

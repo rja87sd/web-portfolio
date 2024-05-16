@@ -46,7 +46,8 @@ Solution: Forgot to add 'use client'; to Header component. React-Bootstrap uses 
 
 - Encountered trouble with card images not being properly contained. Also, the card contents were not centered.
 
-Solution: 
+Solution:
+
 - Added layout="fill" and objectFit="cover" attributes to Image. This allowed the image to fill its container and cover all available space without stretching the image and reducing its quality.
 - Added "relative w-full h-40" to parent className. This set the image position to relative, set the width to take up the full width of its container, and gave it a height setting of 40.
 
@@ -59,3 +60,35 @@ Solution:
 - Flesh out About page.
 - Possibly add more components.
 - Add styling to entire project.
+
+## Day 3 Log
+
+### Tasks Completed
+
+- Added styling to Home page.
+- Added styling to ButtonLink.
+- Added styling to Footer.
+- Added styling to Header.
+- Added styling to Hero.
+- Added styling to ProjectCard.
+- Added styling to Projects.
+- Added styling to About page.
+
+### Challenges and Solutions
+
+- Encountered a bug when adding styling to Dropdown menu in Header component. Bug was the result of Bootstrap clashing with styling.
+  ![alt text](image-1.png)
+
+Solution:
+
+- Applied bg="dark" and data-bs-theme="dark" to Navbar tag in Header.jsx.
+
+### Learnings and Insights
+
+- Gained a better understanding of Bootstrap and how it interacts with custom CSS styling.
+
+### Next Steps
+
+- Finish styling About page.
+- Replace filler text on all pages with relevant information and content. This will likely require adding components to the About page.
+- Add code comments.

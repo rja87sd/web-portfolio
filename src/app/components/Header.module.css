@@ -1,0 +1,52 @@
+/* styles/Header.module.css */
+
+.sleekHeader {
+  padding: 10px 20px;
+}
+
+.neonText {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
+  transition: all 0.2s;
+}
+
+.neonText:hover {
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff;
+}
+
+.cyberpunkBg {
+  background-color: #0d0d0d;
+  background-image: radial-gradient(circle, #3a3a3a, #1a1a1a, #0d0d0d);
+}
+
+.neonBorder {
+  border: 1px solid #0ff;
+  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+.sleekNavLink {
+  padding: 10px 15px;
+  margin: 0 5px;
+}
+
+.sleekNavDropdownMenu {
+  background-color: #1a1a1a;
+  border: none;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.sleekNavDropdownItem {
+  padding: 10px 20px;
+  color: #0ff !important;
+}
+
+.sleekNavDropdownItem:hover {
+  background-color: #3a3a3a !important;
+  color: #0ff !important;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff;
+}
+
+.largeText {
+  font-size: 2.5rem;
+  font-weight: bold;
+}

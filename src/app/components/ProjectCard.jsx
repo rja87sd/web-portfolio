@@ -1,25 +1,26 @@
-// components/ProjectCard.js
+// components/ProjectCard.jsx
 
 import Image from "next/image";
 import ButtonLink from "./ButtonLink";
+import styles from "./ProjectCard.module.css";
 
-const ProjectCard = ({ imageSrc, title, summary, link }) => {
+export default function ProjectCard({ imageSrc, title, summary, link }) {
   return (
-    <div className="border border-gray-300 rounded-lg shadow-md p-4 bg-white relative h-96 flex flex-col">
-      <div className="relative w-full h-40">
+    <div className={styles.card}>
+      <div className={styles.imageWrapper}>
         <Image
           src={imageSrc}
           alt={title}
           layout="fill"
           objectFit="cover"
-          className="rounded-t-lg"
+          className={styles.image}
         />
       </div>
-      <h3 className="text-xl font-semibold mt-2">{title}</h3>
-      <p className="mt-1 text-gray-600">{summary}</p>
-      <ButtonLink href={link}>View Project</ButtonLink>
+      <h3 className={styles.title}>{title}</h3>
+      <p className={styles.summary}>{summary}</p>
+      <div className={styles.buttonLink}>
+        <ButtonLink href={link}>View Project</ButtonLink>
+      </div>
     </div>
   );
 };
-
-export default ProjectCard;
