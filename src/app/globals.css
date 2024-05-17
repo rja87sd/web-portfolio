@@ -5,6 +5,9 @@
 /* styles/global.css */
 
 body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   background-color: #0d0d0d;
   color: #e0e0e0;
   font-family: 'Roboto', sans-serif;
@@ -77,3 +80,4 @@ body {
 .animate-click {
   animation: click 0.3s ease-out;
 }
+

@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.text}>
-        <h1 className="mx-4 my-4 neon-text text-5xl">Hello, World!</h1>
+        <h1 className=" my-4 neon-text text-5xl">Hello, World!</h1>
         <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sit
         architecto itaque ea porro dolorum deleniti rem explicabo ut fugit iusto
         molestiae obcaecati error illo, perferendis, incidunt alias magnam

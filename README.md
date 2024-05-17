@@ -92,3 +92,35 @@ Solution:
 - Finish styling About page.
 - Replace filler text on all pages with relevant information and content. This will likely require adding components to the About page.
 - Add code comments.
+
+## Day 4 Log
+
+### Tasks Completed
+
+- Created components for About page:
+  Contact.jsx
+  Experience.jsx
+  Section.jsx
+  Skills.jsx
+- Created CSS modules for each component, as well as About page:
+  Contact.module.css
+  Experience.module.css
+  Section.module.css
+  Skills.module.css
+  About.module.css
+- Added styling to each component's CSS module:
+- Adjusted styling in Hero.jsx. Removed the border and background, and removed x-axis padding from the heading.
+- Removed duplicate next.config file. Made minor adjustments to next.config.mjs to allow for image links from placehold.co and unsplash.com.
+
+### Challenges and Solutions
+
+- No challenges, blockers, or bugs encountered today.
+
+### Learnings and Insights
+
+- Gained a better understanding of filepaths in regard to importing functions and styling in Next.js.
+
+### Next Steps
+
+- Replace filler text on all pages with relevant information and content.
+- Add code comments.
