@@ -102,13 +102,13 @@ Contact.jsx
 Experience.jsx
 Section.jsx
 Skills.jsx
-- Created CSS modules for each component, as well as About page:
+- Created CSS modules for each component, as well as About page:  
   Contact.module.css  
   Experience.module.css  
   Section.module.css  
   Skills.module.css  
 About.module.css
-- Added styling to each component's CSS module:
+- Added styling to each component's CSS module:  
   Adjusted styling in Hero.jsx. Removed the border and background, and removed x-axis padding from the heading.  
   Removed duplicate next.config file. Made minor adjustments to next.config.mjs to allow for image links from placehold.co and unsplash.com.  
 
