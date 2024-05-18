@@ -1,25 +1,25 @@
 /* styles/Skills.module.css */
 
 .skillsSection {
-  margin: 2rem 0;
-  padding: 2rem;
+  margin: 2rem 0; /* Adds vertical margins of 2rem (top and bottom) */
+  padding: 2rem; /* Adds padding of 2rem inside the section */
 }
 
 .title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #0ff;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
+  font-size: 2rem; /* Sets font size to 2rem */
+  font-weight: bold; /* Makes the text bold */
+  margin-bottom: 1rem; /* Adds bottom margin of 1rem */
+  color: #0ff; /* Sets the text color to cyan */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; /* Adds a neon-like text shadow effect */
 }
 
 .list {
-  list-style-type: disc;
-  padding-left: 1rem;
+  list-style-type: disc; /* Sets list item markers to discs */
+  padding-left: 1rem; /* Adds padding of 1rem to the left */
 }
 
 .listItem {
-  font-size: 1.125rem;
-  color: #b0b0b0;
-  margin-bottom: 0.5rem;
+  font-size: 1.125rem; /* Sets font size to 1.125rem */
+  color: #b0b0b0; /* Sets the text color to a light gray */
+  margin-bottom: 0.5rem; /* Adds bottom margin of 0.5rem */
 }

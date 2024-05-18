@@ -1,43 +1,43 @@
 /* styles/Contact.module.css */
 
 .section {
-  margin: 2rem 0;
-  padding: 2rem;
-  text-align: center; /* Center the content */
+  margin: 2rem 0; /* Adds vertical margins of 2rem (top and bottom) */
+  padding: 2rem; /* Adds padding of 2rem inside the section */
+  text-align: center; /* Centers the text content */
 }
 
 .title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #0ff;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
+  font-size: 2rem; /* Sets font size to 2rem */
+  font-weight: bold; /* Makes the text bold */
+  margin-bottom: 1rem; /* Adds bottom margin of 1rem */
+  color: #0ff; /* Sets the text color to cyan */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; /* Adds a neon-like text shadow effect */
 }
 
 .text {
-  font-size: 1.125rem;
-  color: #b0b0b0;
-  margin-bottom: 1rem;
+  font-size: 1.125rem; /* Sets font size to 1.125rem */
+  color: #b0b0b0; /* Sets the text color to a light gray */
+  margin-bottom: 1rem; /* Adds bottom margin of 1rem */
 }
 
 .link {
-  color: #0ff;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
-  transition: all 0.2s;
+  color: #0ff; /* Sets the text color to cyan */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff; /* Adds a neon-like text shadow effect */
+  transition: all 0.2s; /* Smooth transition for all properties over 0.2s */
 }
 
 .link:hover {
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff; /* Enhances the neon effect on hover */
 }
 
 .list {
-  list-style-type: none; /* Remove bullets */
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  list-style-type: none; /* Removes the default bullet points from the list */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: column; /* Arranges flex items in a column */
+  align-items: center; /* Centers the flex items horizontally */
 }
 
 .listItem {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; /* Adds bottom margin of 1rem */
 }

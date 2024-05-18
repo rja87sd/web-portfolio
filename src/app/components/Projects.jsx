@@ -1,8 +1,7 @@
-// components/Projects.jsx
+import ProjectCard from "./ProjectCard"; // Importing ProjectCard component
+import styles from "./Projects.module.css"; // Importing CSS module for styling
 
-import ProjectCard from "./ProjectCard";
-import styles from "./Projects.module.css";
-
+// Array of project data
 const projects = [
   {
     imageSrc: "/5eLookup.png",
@@ -24,22 +23,26 @@ const projects = [
   },
 ];
 
+// Functional component named ProjectContainer
 export default function ProjectContainer() {
   return (
+    // Container div with styling from Projects.module.css
     <div className={styles.container}>
+      {/* Heading with styling from Projects.module.css */}
       <h2 className={styles.title}>My Projects</h2>
+      {/* Grid container with styling from Projects.module.css */}
       <div className={styles.grid}>
+        {/* Mapping over the projects array to render ProjectCard components */}
         {projects.map((project, index) => (
           <ProjectCard
-            key={index}
-            imageSrc={project.imageSrc}
-            title={project.title}
-            summary={project.summary}
-            link={project.link}
+            key={index} // Unique key for each project
+            imageSrc={project.imageSrc} // Image source URL
+            title={project.title} // Project title
+            summary={project.summary} // Project summary
+            link={project.link} // Project link
           />
         ))}
       </div>
     </div>
   );
-};
-
+}

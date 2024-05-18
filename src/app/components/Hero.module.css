@@ -1,20 +1,20 @@
 /* styles/Hero.module.css */
 
 .hero {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: row; /* Arranges flex items in a row */
+  align-items: center; /* Aligns items vertically at the center */
+  padding: 2rem; /* Adds padding of 2rem inside the container */
+  margin-bottom: 2rem; /* Adds bottom margin of 2rem */
 }
 
 .text {
-  flex: 1;
-  padding-right: 2rem;
+  flex: 1; /* Allows the text container to grow and fill available space */
+  padding-right: 2rem; /* Adds right padding of 2rem */
 }
 
 .image {
-  border: 1px solid #0ff;
-  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
-  border-radius: 5px;
+  border: 1px solid #0ff; /* Adds a cyan border with a width of 1px */
+  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff; /* Adds a neon-like box shadow effect */
+  border-radius: 5px; /* Rounds the corners of the image with a radius of 5px */
 }

@@ -1,52 +1,52 @@
 /* styles/Header.module.css */
 
 .sleekHeader {
-  padding: 10px 20px;
+  padding: 10px 20px; /* Adds padding of 10px vertically and 20px horizontally */
 }
 
 .neonText {
-  color: #0ff;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
-  transition: all 0.2s;
+  color: #0ff; /* Sets the text color to cyan */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; /* Adds a neon-like text shadow effect */
+  transition: all 0.2s; /* Smooth transition for all properties over 0.2s */
 }
 
 .neonText:hover {
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff; /* Enhances the neon effect on hover */
 }
 
 .cyberpunkBg {
-  background-color: #0d0d0d;
-  background-image: radial-gradient(circle, #3a3a3a, #1a1a1a, #0d0d0d);
+  background-color: #0d0d0d; /* Sets the background color to a very dark shade */
+  background-image: radial-gradient(circle, #3a3a3a, #1a1a1a, #0d0d0d); /* Adds a radial gradient for a cyberpunk effect */
 }
 
 .neonBorder {
-  border: 1px solid #0ff;
-  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  border: 1px solid #0ff; /* Adds a cyan border with a width of 1px */
+  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff; /* Adds a neon-like box shadow effect */
 }
 
 .sleekNavLink {
-  padding: 10px 15px;
-  margin: 0 5px;
+  padding: 10px 15px; /* Adds padding of 10px vertically and 15px horizontally */
+  margin: 0 5px; /* Adds horizontal margin of 5px */
 }
 
 .sleekNavDropdownMenu {
-  background-color: #1a1a1a;
-  border: none;
-  box-shadow: 0 0 10px #0ff;
+  background-color: #1a1a1a; /* Sets the background color to a dark shade */
+  border: none; /* Removes the border */
+  box-shadow: 0 0 10px #0ff; /* Adds a neon-like box shadow effect */
 }
 
 .sleekNavDropdownItem {
-  padding: 10px 20px;
-  color: #0ff !important;
+  padding: 10px 20px; /* Adds padding of 10px vertically and 20px horizontally */
+  color: #0ff !important; /* Sets the text color to cyan and uses !important to override other styles */
 }
 
 .sleekNavDropdownItem:hover {
-  background-color: #3a3a3a !important;
-  color: #0ff !important;
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff;
+  background-color: #3a3a3a !important; /* Changes the background color on hover and uses !important to override other styles */
+  color: #0ff !important; /* Keeps the text color cyan on hover and uses !important to override other styles */
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff; /* Enhances the neon effect on hover */
 }
 
 .largeText {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2.5rem; /* Sets font size to 2.5rem */
+  font-weight: bold; /* Makes the text bold */
 }

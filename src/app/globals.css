@@ -1,83 +1,82 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; /* Import Tailwind CSS base styles */
+@tailwind components; /* Import Tailwind CSS component styles */
+@tailwind utilities; /* Import Tailwind CSS utility styles */
 
 /* styles/global.css */
 
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #0d0d0d;
-  color: #e0e0e0;
-  font-family: 'Roboto', sans-serif;
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  height: 100%; /* Sets height to 100% of the viewport */
+  background-color: #0d0d0d; /* Sets the background color to a very dark shade */
+  color: #e0e0e0; /* Sets the text color to a light gray */
+  font-family: 'Roboto', sans-serif; /* Sets the font family to Roboto */
 }
 
 .cyberpunk-bg {
-  background-color: #0d0d0d;
-  background-image: radial-gradient(circle, #3a3a3a, #1a1a1a, #0d0d0d);
+  background-color: #0d0d0d; /* Sets the background color to a very dark shade */
+  background-image: radial-gradient(circle, #3a3a3a, #1a1a1a, #0d0d0d); /* Adds a radial gradient for a cyberpunk effect */
 }
 
 .neon-text {
-  color: #0ff;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
-  transition: all 0.2s;
+  color: #0ff; /* Sets the text color to cyan */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; /* Adds a neon-like text shadow effect */
+  transition: all 0.2s; /* Smooth transition for all properties over 0.2s */
 }
 
 .neon-text:hover {
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff; /* Enhances the neon effect on hover */
 }
 
 .neon-border {
-  border: 1px solid #0ff;
-  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  border: 1px solid #0ff; /* Adds a cyan border with a width of 1px */
+  box-shadow: 0 0 5px #0ff, 0 0 10px #0ff; /* Adds a neon-like box shadow effect */
 }
 
 .btn-neon {
-  background-color: transparent;
-  border: 2px solid #0ff;
-  color: #0ff;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  transition: all 0.2s;
-  margin: 0 5px;
+  background-color: transparent; /* Sets the background color to transparent */
+  border: 2px solid #0ff; /* Adds a cyan border with a width of 2px */
+  color: #0ff; /* Sets the text color to cyan */
+  padding: 5px 15px; /* Adds padding of 5px vertically and 15px horizontally */
+  text-align: center; /* Centers the text */
+  text-decoration: none; /* Removes text decoration */
+  display: inline-block; /* Displays as an inline block element */
+  font-size: 14px; /* Sets the font size to 14px */
+  transition: all 0.2s; /* Smooth transition for all properties over 0.2s */
+  margin: 0 5px; /* Adds horizontal margin of 5px */
 }
 
 .btn-neon:hover {
-  background-color: #0ff;
-  color: #0d0d0d;
-  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+  background-color: #0ff; /* Changes the background color to cyan on hover */
+  color: #0d0d0d; /* Changes the text color to very dark shade on hover */
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff; /* Adds a stronger neon-like box shadow effect on hover */
 }
 
 .neon-animation {
-  animation: neon-glow 1.5s infinite alternate;
+  animation: neon-glow 1.5s infinite alternate; /* Adds a neon glow animation with infinite alternate repetition */
 }
 
 @keyframes neon-glow {
   from {
-    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff; /* Starting state of the neon glow animation */
   }
   to {
-    text-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
+    text-shadow: 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; /* Ending state of the neon glow animation */
   }
 }
 
 @keyframes click {
   0% {
-    transform: scale(1);
+    transform: scale(1); /* Starting state of the click animation */
   }
   50% {
-    transform: scale(0.95);
+    transform: scale(0.95); /* Midpoint state of the click animation */
   }
   100% {
-    transform: scale(1);
+    transform: scale(1); /* Ending state of the click animation */
   }
 }
 
 .animate-click {
-  animation: click 0.3s ease-out;
+  animation: click 0.3s ease-out; /* Adds a click animation with ease-out timing over 0.3s */
 }
-

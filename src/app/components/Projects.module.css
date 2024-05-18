@@ -1,38 +1,38 @@
 /* styles/Projects.module.css */
 
 .container {
-  margin: 0 auto;
-  padding: 1rem;
+  margin: 0 auto; /* Centers the container horizontally with automatic left and right margins */
+  padding: 1rem; /* Adds padding of 1rem inside the container */
 }
 
 .title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  color: #0ff;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff;
+  font-size: 2rem; /* Sets font size to 2rem */
+  font-weight: bold; /* Makes the text bold */
+  margin-bottom: 1.5rem; /* Adds bottom margin of 1.5rem */
+  color: #0ff; /* Sets the text color to cyan */
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff; /* Adds a neon-like text shadow effect */
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+  display: grid; /* Uses grid layout */
+  grid-template-columns: 1fr; /* Defines one column that takes up all available space */
+  gap: 1rem; /* Adds a gap of 1rem between grid items */
 }
 
 @media (min-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* Defines two columns for screens 768px and wider */
   }
 }
 
 @media (min-width: 1024px) {
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* Defines three columns for screens 1024px and wider */
   }
 }
 
 .grid > div {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  display: flex; /* Uses flexbox for layout */
+  flex-direction: column; /* Arranges flex items in a column */
+  height: 100%; /* Ensures the grid item takes the full height of the container */
 }
