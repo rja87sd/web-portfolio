@@ -15,7 +15,7 @@ export default function Hero() {
         {/* Heading with global neon text styling and additional classes for margin and size */}
         <h1 className="my-4 neon-text text-5xl">Hello, World!</h1>
         {/* Paragraph with text content */}
-        <p>
+        <p className="text-gray-400">
           Welcome to my portfolio! I am Ryan Arnold, a passionate developer
           beginning in Front-end Development, with some knowledge of Back-end
           Development. I have a background in Computer Forensics, and I love
