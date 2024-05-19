@@ -7,19 +7,21 @@ const projects = [
   {
     imageSrc: "/5eLookup.png",
     title: "5e Spell Lookup",
-    summary: "This is a brief summary of project one.",
+    summary: "A simple search engine for D&D 5e spells using dndapi.",
     link: "https://rja87sd.github.io/5e-Lookup/",
   },
   {
     imageSrc: "/WeatherApp.png",
     title: "Simple Weather App",
-    summary: "This is a brief summary of project two.",
+    summary:
+      "An app to look up weather forecasts based on city or zip code using weatherbit's API.",
     link: "https://rja87sd.github.io/simple-weather-app/",
   },
   {
     imageSrc: "/LFG.png",
     title: "Looking For Gamers",
-    summary: "This is a brief summary of project three.",
+    summary:
+      "My first capstone project. It uses local storage to simulate posts being made to the page. Future updates may include usage of Firebase to implement actual post capability.",
     link: "https://rja87sd.github.io/capstone-level-1/",
   },
 ];
