@@ -1,3 +1,4 @@
+// Credit to ChatGPT for assistance and code comments.
 "use client"; // Indicates that this component uses client-side rendering
 
 import React from "react"; // Importing React library

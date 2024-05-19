@@ -1,3 +1,4 @@
+// Credit to ChatGPT for assistance and code comments.
 import Image from "next/image"; // Importing Image component from Next.js for optimized image loading
 import ButtonLink from "./ButtonLink"; // Importing ButtonLink component
 import styles from "./ProjectCard.module.css"; // Importing CSS module for styling

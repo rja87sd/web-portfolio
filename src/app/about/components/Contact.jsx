@@ -1,4 +1,4 @@
-import React from "react"; // Importing React library
+// Credit to ChatGPT for assistance and code comments.
 import Link from "next/link"; // Importing Link component from Next.js for client-side navigation
 import styles from "./Contact.module.css"; // Importing CSS module for styling
 
@@ -17,7 +17,7 @@ export default function Contact() {
         <li className={styles.listItem}>
           {/* Link to GitHub profile with styling and attributes for security */}
           <Link
-            href="https://github.com/your-username"
+            href="https://github.com/rja87sd"
             className={styles.link}
             target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Security measure to prevent exploitation
@@ -29,7 +29,7 @@ export default function Contact() {
         <li className={styles.listItem}>
           {/* Link to LinkedIn profile with styling and attributes for security */}
           <Link
-            href="https://www.linkedin.com/in/your-username/"
+            href="https://www.linkedin.com/in/ryan-arnold-3ab1b015b/"
             className={styles.link}
             target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Security measure to prevent exploitation

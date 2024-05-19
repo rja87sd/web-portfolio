@@ -1,4 +1,4 @@
-import React from "react"; // Importing React library
+// Credit to ChatGPT for assistance and code comments.
 import styles from "./Section.module.css"; // Importing CSS module for styling
 
 // Functional component named Section, accepting title and children as props

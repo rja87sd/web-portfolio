@@ -1,3 +1,4 @@
+// Credit to ChatGPT for assistance and code comments.
 import ProjectCard from "./ProjectCard"; // Importing ProjectCard component
 import styles from "./Projects.module.css"; // Importing CSS module for styling
 

@@ -1,3 +1,4 @@
+// Credit to ChatGPT for assistance and code comments.
 import "../globals.css"; // Importing global CSS styles
 
 // Functional component named Footer

@@ -1,3 +1,4 @@
+// Credit to ChatGPT for assistance and code comments.
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 

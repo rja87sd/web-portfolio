@@ -1,8 +1,7 @@
+/* Credit to ChatGPT for assistance and code comments. */
 @tailwind base; /* Import Tailwind CSS base styles */
 @tailwind components; /* Import Tailwind CSS component styles */
 @tailwind utilities; /* Import Tailwind CSS utility styles */
-
-/* styles/global.css */
 
 body {
   margin: 0; /* Removes default margin */

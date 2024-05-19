@@ -1,3 +1,4 @@
+// Credit to ChatGPT for assistance and code comments.
 // Importing necessary libraries and components
 import React from "react"; // Importing React library
 import Header from "../components/Header"; // Importing Header component
@@ -21,10 +22,11 @@ export default function About() {
         {/* Section component with a title and content */}
         <Section title="About Me">
           {/* Paragraph with text content */}
-          <p className="text-lg text-gray-700 mb-4">
-            Welcome to my portfolio! I am [Your Name], a passionate developer
-            with expertise in [Your Skills]. I love building creative and
-            efficient solutions for complex problems.
+          <p className="text-lg text-gray-400 mb-4">
+            Welcome to my portfolio! I am Ryan Arnold, a passionate developer
+            beginning in Front-end Development, with some knowledge of Back-end
+            Development. I have a background in computer forensics, and I love
+            building creative and efficient solutions for complex problems.
           </p>
         </Section>
         {/* Skills component */}

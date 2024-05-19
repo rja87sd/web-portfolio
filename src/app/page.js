@@ -1,3 +1,4 @@
+// Credit to ChatGPT for assistance and code comments.
 // Importing necessary components and styles
 import Header from "./components/Header"; // Importing Header component
 import Footer from "./components/Footer"; // Importing Footer component
