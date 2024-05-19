@@ -125,7 +125,7 @@ About.module.css
 - Replace filler text on all pages with relevant information and content.
 - Add code comments.
 
-## Day 4 Log
+## Day 5 Log
 
 ### Tasks Completed
 
